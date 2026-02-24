@@ -123,9 +123,9 @@ int main (){
                         {
                             validar= false;
                         }
-                        if(!validar){
+                        if(!validar ==false){
                             cout<<"ERROR"<<endl;
-                            break;
+                            
                         }else{
                                 cout<<"---VEHICULO REGISTRADO---"<<endl;
                                 cout<<"PLACA: "<<vehiculos[contador].placa<<endl;
